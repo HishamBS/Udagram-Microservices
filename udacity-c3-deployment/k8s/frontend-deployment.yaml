@@ -13,7 +13,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: h2binseddeq/udacity-frontend:local
+      - image: h2binseddeq/udacity-frontend
         name: frontend
         imagePullPolicy: Always          
         ports:
